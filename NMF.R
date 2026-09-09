@@ -1,11 +1,12 @@
 rm(list = ls())
-# Load the data, make sure that you are in the right folder
+# Load the data
 load(file = "CW2_25.RData")
 uob_email <- "AB12345@bristol.ac.uk" 
 #university email obscured
 my_seed <- as.numeric(gsub("\\D", "", uob_email))
 print(my_seed)
 set.seed(my_seed)
+set.seed(25451) #written manually so code can work
 A_test <- matrix(sample(1:9), 3, 3)
 V_test <- matrix(sample(1:12), 4, 3)
 W_test <- matrix(sample(1:8), 4, 2)
