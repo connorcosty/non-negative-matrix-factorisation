@@ -43,7 +43,7 @@ Storing W and H costs r(400 + 4096) entries against 1,638,400 for the full matri
 
 ## Results
 
-![Reconstructions at decreasing rank](Reconstruction.png)
+![Reconstructions at decreasing rank](Reconstructions.png)
 
 ![Reconstruction error against iteration](Plot.png)
 
