@@ -1,9 +1,8 @@
-## TEMPLATE SOLUTION FILE
-
 rm(list = ls())
 # Load the data, make sure that you are in the right folder
 load(file = "CW2_25.RData")
-uob_email <- "ro25451@bristol.ac.uk"
+uob_email <- "AB12345@bristol.ac.uk" 
+#university email obscured
 my_seed <- as.numeric(gsub("\\D", "", uob_email))
 print(my_seed)
 set.seed(my_seed)
