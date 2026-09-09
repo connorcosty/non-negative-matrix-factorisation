@@ -1,5 +1,5 @@
 # Low-Rank Approximation of Face Images with NMF
-
+ 
 Non-negative matrix factorisation implemented from scratch in R, used to
 compress a 400 x 4096 dataset of 64x64 greyscale face images and study the
 trade-off between rank and reconstruction quality.
